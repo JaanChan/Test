@@ -1,0 +1,43 @@
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    #container {
+        width: 90%;
+        max-width: 400px;
+        position: relative;
+    }
+    #input-text, #output-text {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+    #translate-btn, #reverse-btn, #copy-btn {
+        width: 100%;
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    #translate-btn:hover, #reverse-btn:hover, #copy-btn:hover {
+        background-color: #45a049;
+    }
+    #copy-btn {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        padding: 5px;
+        font-size: 14px;
+    }
+    #reverse-btn {
+        margin-bottom: 20px;
+    }
